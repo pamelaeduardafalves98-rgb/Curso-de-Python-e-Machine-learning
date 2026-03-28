@@ -1,6 +1,6 @@
 # 📘 Introdução ao Python e Conceitos Iniciais
 
-Este repositório contém os conceitos fundamentais da linguagem **Python**, abordando desde sua introdução até os primeiros elementos práticos de programação.
+Este material apresenta os conceitos fundamentais da linguagem **Python**, desde sua introdução até os primeiros passos na programação.
 
 ---
 
@@ -8,166 +8,150 @@ Este repositório contém os conceitos fundamentais da linguagem **Python**, abo
 
 Python é uma linguagem de programação:
 
-* 🔹 Interpretada
-* 🔹 De alto nível
-* 🔹 Multiplataforma
-* 🔹 De propósito geral
-
-Ela é conhecida por sua **simplicidade e legibilidade**, sendo amplamente utilizada tanto por iniciantes quanto por profissionais.
+- Interpretada  
+- De alto nível  
+- Multiplataforma  
+- De propósito geral  
 
 ### 💡 Principais aplicações
 
-* Desenvolvimento Web
-* Automação de tarefas
-* Ciência de Dados
-* Inteligência Artificial e Machine Learning
-* Computação científica
+- Desenvolvimento Web  
+- Automação de tarefas  
+- Ciência de Dados  
+- Inteligência Artificial  
+- Computação científica  
 
 ---
 
 ## 🏛️ Histórico
 
-* Criada por **Guido van Rossum** no final dos anos 80
-* Primeira versão: **Python 0.9.0 (1991)**
-* Versão moderna: **Python 3.x (2008 - atual)**
-* Nome inspirado no grupo humorístico *Monty Python*
+- Criada por Guido van Rossum  
+- Início: final da década de 1980  
+- Primeira versão: 1991  
+- Python 3 lançado em 2008  
+- Nome inspirado no grupo Monty Python  
 
 ---
 
-## 🧠 Estrutura Básica de um Programa
+## 🧠 Estrutura Básica
 
-Um programa em Python é executado **de cima para baixo**, de forma sequencial.
+Python executa instruções de forma sequencial (de cima para baixo):
 
-```python
-print("Meu primeiro programa em Python")
-```
+    print("Meu primeiro programa em Python")
 
 ---
 
 ## 💬 Comentários
 
-### ✔️ Comentário de uma linha
+### Uma linha
 
-```python
-# Isto é um comentário
-```
+    # Comentário simples
 
-### ✔️ Comentário de múltiplas linhas (docstring)
+### Múltiplas linhas
 
-```python
-"""
-Comentário longo
-ou documentação
-"""
-```
+    """
+    Comentário longo
+    ou documentação
+    """
 
 ---
 
 ## 📦 Variáveis
 
-* Não precisam de declaração de tipo
-* O tipo é definido automaticamente
-* Podem ser alteradas durante o programa
+- Não precisam de tipo declarado  
+- Tipagem dinâmica  
+- Valores podem mudar  
 
-```python
-nome = "Ana"
-idade = 20
-altura = 1.65
-```
+    nome = "Ana"
+    idade = 20
+    altura = 1.65
 
 ---
 
 ## 🔢 Tipos de Dados
 
-| Tipo  | Exemplo   |
-| ----- | --------- |
-| int   | `10`      |
-| float | `19.90`   |
-| str   | `"Texto"` |
-| bool  | `True`    |
+| Tipo  | Exemplo       |
+|-------|--------------|
+| int   | 10           |
+| float | 19.90        |
+| str   | "Texto"      |
+| bool  | True / False |
 
 ---
 
 ## 🔍 Verificando Tipos
 
-```python
-print(type(idade))
-```
+    print(type(idade))
 
 ---
 
 ## ⌨️ Entrada de Dados
 
-```python
-nome = input("Digite seu nome: ")
-```
+    nome = input("Digite seu nome: ")
 
-⚠️ **Importante:** O `input()` sempre retorna uma *string*.
+⚠️ `input()` sempre retorna string.
 
 ---
 
-## 🔄 Conversão de Tipos (Casting)
+## 🔄 Conversão de Tipos
 
-```python
-idade = int(input("Digite sua idade: "))
-altura = float(input("Digite sua altura: "))
-```
+    idade = int(input("Digite sua idade: "))
+    altura = float(input("Digite sua altura: "))
 
 ---
 
 ## ➗ Operadores Aritméticos
 
-| Operador | Função          |
-| -------- | --------------- |
-| +        | Adição          |
-| -        | Subtração       |
-| *        | Multiplicação   |
-| /        | Divisão         |
-| //       | Divisão inteira |
-| %        | Resto           |
-| **       | Potência        |
+| Operador | Função            |
+|----------|------------------|
+| +        | Adição           |
+| -        | Subtração        |
+| *        | Multiplicação    |
+| /        | Divisão          |
+| //       | Divisão inteira  |
+| %        | Resto            |
+| **       | Potência         |
 
-```python
-a = 10
-b = 3
+    a = 10
+    b = 3
 
-print(a + b)
-print(a * b)
-print(a ** b)
-```
+    print(a + b)
+    print(a * b)
+    print(a ** b)
 
 ---
 
 ## 🧹 Boas Práticas
 
-* Use nomes claros (`media_final`, `total_alunos`)
-* Evite acentos e espaços
-* Utilize **snake_case**
+- Use nomes descritivos  
+- Evite acentos e espaços  
+- Utilize snake_case  
+
+    media_final = 7.5
+    total_alunos = 30
 
 ---
 
-## 📝 Exercícios Propostos
+## 📝 Exercícios
 
-1. Solicitar nome e idade e exibir mensagem personalizada
-2. Ler dois números e mostrar a soma
-3. Calcular média de três notas
+1. Ler nome e idade e exibir mensagem  
+2. Somar dois números  
+3. Calcular média de três notas  
 
 ---
 
-## 🎯 Objetivo do Estudo
+## 🎯 Objetivo
 
-Ao final deste conteúdo, você será capaz de:
-
-* Criar seus primeiros programas em Python
-* Entender a lógica básica de programação
-* Trabalhar com variáveis e tipos de dados
-* Interagir com o usuário
+- Entender lógica básica  
+- Criar primeiros programas  
+- Trabalhar com variáveis e tipos  
+- Interagir com o usuário  
 
 ---
 
 ## 📌 Conclusão
 
-Python é uma excelente porta de entrada para o mundo da programação, combinando **facilidade de aprendizado** com **grande poder de aplicação**.
+Python é uma linguagem simples, poderosa e ideal para iniciantes e profissionais.
 
 ---
 
